@@ -17,3 +17,14 @@ function whileLoop(n) {
   }
   }
 }
+var i = 0;
+function incrementVariable() {
+  i = i + 1;
+}
+function doWhileLoop(array) {
+  do {
+    array.pop ();
+    incrementVariable();
+  }
+  while (array.length > 0)
+}
